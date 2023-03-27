@@ -1,0 +1,19 @@
+As the admin of the organization, my task is to ensure that only the appropriate permissions are granted to each group of people in the organization. In this case, the DevOps team needs to create clusters in Kubernetes, and the Finance team needs to manage billing in GCP. Based on the principle of least privilege, the following roles should be assigned:
+
+DevOps team:
+The DevOps team needs access to Kubernetes Engine to create and manage clusters. The appropriate role for this group is Kubernetes Engine Developer. This role allows the team to create and manage clusters, deploy containerized applications, and scale resources within the cluster.
+Steps to assign the role:
+a. Go to the IAM & Admin page in the GCP Console.
+b. Select the project and click on the "Add" button.
+c. Enter the email address of the DevOps team members.
+d. Assign the Kubernetes Engine Developer role to the team.
+
+Finance team:
+The Finance team needs access to manage billing in GCP. The appropriate role for this group is Billing Account Administrator. This role allows the team to view and manage billing account information, create budgets, and view usage reports.
+
+Steps to assign the role:
+a. Go to the Billing page in the GCP Console.
+b. Select the billing account.
+c. Click on "Add Member" button.
+d. Enter the email address of the Finance team members.
+e. Assign the Billing Account Administrator role to the team.

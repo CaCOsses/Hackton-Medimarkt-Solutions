@@ -1,0 +1,7 @@
+version: '3'
+services:
+  solution:
+    image: us-west2-docker.pkg.dev/awagngxggcievs4jukm56y3voiyife/quickstart-docker-repo/solution-image:ta
+    container_name: solution_docker_compose
+    ports:
+        - "3000:3000"
